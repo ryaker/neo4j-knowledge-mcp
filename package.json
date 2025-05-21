@@ -1,0 +1,29 @@
+{
+  "name": "neo4j-knowledge-mcp",
+  "version": "1.0.0",
+  "description": "Neo4j Knowledge Graph MCP Server for sophisticated knowledge management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node mcp-server.js",
+    "test": "npx node test/test-connection.js",
+    "setup-db": "npx node scripts/setup-database.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.4",
+    "dotenv": "^16.3.1",
+    "neo4j-driver": "^5.15.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "mcp",
+    "neo4j",
+    "knowledge-graph",
+    "ai",
+    "claude"
+  ],
+  "author": "Gondola Dev",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "neo4j-knowledge": {
+      "command": "/Volumes/Dev/Work/Gondola_Dev/Ne04J/neo4j-knowledge-mcp/start-mcp-server.sh",
+      "env": {
+        "NEO4J_URI": "neo4j+s://41425db4.databases.neo4j.io",
+        "NEO4J_USERNAME": "neo4j",
+        "NEO4J_PASSWORD": "your_secure_password"
+      }
+    }
+  }
+}
