@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "neo4j-knowledge": {
-      "command": "/Volumes/Dev/Work/Gondola_Dev/Ne04J/neo4j-knowledge-mcp/start-mcp-server.sh",
+      "command": "/usr/bin/env node mcp-server.js",
       "env": {
         "NEO4J_URI": "neo4j+s://41425db4.databases.neo4j.io",
         "NEO4J_USERNAME": "neo4j",
